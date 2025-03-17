@@ -1,0 +1,68 @@
+.pagina {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #111; 
+    height: 1000px;
+    margin: 0;
+}
+  
+  .profile-card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+  }
+  
+  .profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b0ff5e;
+    margin-bottom: 5px;
+  }
+  
+  .profile-location {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-bottom: 15px;
+  }
+  
+  .profile-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #dddddd;
+  }
+  
+  .profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .profile-btn {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 100%;
+  }
+  
+  .profile-btn:hover {
+    background-color: #444444;
+  }
+
+  
